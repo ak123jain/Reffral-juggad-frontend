@@ -219,7 +219,7 @@ const Premium = () => {
 
       const rzp = new window.Razorpay(options);
       rzp.on('payment.failed', function (response) {
-        alert('Payment Failed!');
+        alert('Payment Failed! akash jain');
         alert(response.error.description);
       });
 
