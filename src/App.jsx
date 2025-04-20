@@ -8,6 +8,7 @@ import Messege from './Pages/messege'
 import Displaymentor from './Pages/Displaymentor'
 import Prenium from './Pages/Prenium'
 import MentorAdd from './Pages/Mentoradd'
+
  
  
 
@@ -25,7 +26,7 @@ const App = () => {
           <Route path="/messege/:id" element={<Messege />} />
           <Route path="/addmentor" element={<MentorAdd />} />
           <Route path="/displaymentor" element={<Displaymentor />} />
-           <Route path="/premium/:MentorId" element={<Prenium />} />
+          <Route path="/premium/:MentorId" element={<Prenium />} />
         </Routes>
       </div>
     </BrowserRouter>
