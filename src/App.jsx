@@ -5,7 +5,7 @@ import MentorProfile from './Pages/mentorProfile'
 import SignUp from './Pages/SignUp'
 import Login from './Pages/Login'
 import Messege from './Pages/messege'
-import Displaymentor from './Pages/displaymentor'
+import Displaymentor from './Pages/Displaymentor'
 import Prenium from './Pages/Prenium'
 import MentorAdd from './Pages/Mentoradd'
  
