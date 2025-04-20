@@ -148,11 +148,14 @@ const Premium = () => {
     setLoading(true);
     try {
       const token = localStorage.getItem("accessToken")
+      console.log("😒😒😒😒😒😒😒😒" , token);
+      
       const { data } = await axios.post(
-        `${import.meta.env.VITE_API_URL}/orders/createorder/${MentorId}`,
+        `${import.meta.env.VITE_API_URL}/orders/createorder/${MentorId}` ,
         { amount: 1 },
         {
           headers: {
+            'Content-Type': 'application/json',
             Authorization: `Bearer ${token}`,
           },
         }
