@@ -149,7 +149,7 @@ const Premium = () => {
     try {
       const token = localStorage.getItem("accessToken")
       const { data } = await axios.post(
-        `http://localhost:8000/orders/createorder/${MentorId}`,
+        `${import.meta.env.VITE_API_URL}/orders/createorder/${MentorId}`,
         { amount: 1 },
         {
           headers: {
