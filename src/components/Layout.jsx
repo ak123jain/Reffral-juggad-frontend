@@ -9,7 +9,7 @@ const Layout = () => {
     <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] bg-[#0a192f] shadow-lg px-8 py-4 flex items-center justify-between rounded-xl z-50">
       
       {/* ✅ Title */}
-      <h1 className="text-2xl font-bold text-white uppercase">Referral juggad</h1>
+      <h1 className="text-2xl font-bold text-white uppercase">Referral jugaad</h1>
 
       {/* ✅ Navbar Menu */}
       <div className="relative flex justify-center">
